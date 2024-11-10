@@ -1,3 +1,4 @@
+# Este archivo permite crear y ejecutar un contenedor de PostgreSQL.
 version: '3.8'
 
 services:
