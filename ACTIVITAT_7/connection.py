@@ -1,6 +1,7 @@
 import psycopg2
 
 def connect():
+    # Datos para conectarse a la base de datos
     try:
         connection = psycopg2.connect(
             database="BBDDPostgres",

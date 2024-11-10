@@ -1,5 +1,8 @@
 from connection import connect
 
+# Definimos la función 'update_product' que se utilizará para actualizar los detalles de un producto.
+# La función recibe el 'id' del producto a actualizar y los nuevos valores para 'name', 'description', 
+# 'price' y 'quantity', todos los cuales son opcionales
 def update_product(id, name=None, description=None, price=None, quantity=None):
     conn = connect()
     if conn:
